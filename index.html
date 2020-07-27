@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meal finder</title>
+</head>
+<body>
+    <section class="overlay">
+        <div class="contain">
+            <h1>Meal Finder</h1>
+            <div class="flex">
+                <form action="" class="flex" id='form-submit'>
+                    <input type="text" id="search-input" name='search' placeholder="Enter meal name to search">
+                    <button id="submit"><i class="fas fa-search"></i></button>
+                </form>
+                <button id='random'><i class="fas fa-random"></i></button>
+            </div>
+        </div>
+
+       <section>
+        <div class="container">
+        <div class="row">
+            <div class="col-2 mt-3 d-md-inline-block d-none" id="categories">
+                <div class="row">
+                    <p class='mx-auto'>Categories</p>
+                </div>
+            </div>
+
+            <div class="col-md-8 mt-3 col-sm-7">
+                <div class="row">
+                    <div id="result-heading" class='text-center mt-3'></div>
+                    <div id="single-meal"></div>
+                </div>
+            </div> 
+
+            <div class="col-md-2 mt-3 col-sm-5" id="meals">
+                <div class="row my-3">
+                    <p class='mx-auto text-center'>Search Results</p>
+                </div>
+            </div>   
+        </div>
+        </div>
+       </section>
+    </section>    
+   <script src='script/function.js'></script>
+    <script src='script/script.js'></script>
+</body>
+</html>
