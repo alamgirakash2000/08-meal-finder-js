@@ -1,5 +1,4 @@
 
-
 // Get Fetched elements after search
 function getFetchElement(e){
     e.preventDefault()
